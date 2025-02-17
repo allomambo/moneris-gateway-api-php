@@ -1,0 +1,13 @@
+{
+  "name": "allomambo/moneris-gateway-api-php",
+  "description": "Moneris`s official gateway API PHP, but for composer.",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.0",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "classmap": ["mpgClasses.php"]
+  }
+}
